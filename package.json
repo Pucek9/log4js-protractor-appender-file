@@ -1,0 +1,29 @@
+{
+  "name": "log4js-protractor-appender-file",
+  "version": "1.0.0",
+  "description": "Log4js appender suited for Protractor",
+  "main": "lib/protractorAppenderFile.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover --include-all-sources ./node_modules/.bin/jasmine-node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pucek9/log4js-protractor-appender-file"
+  },
+  "keywords": [
+    "log4js",
+    "protractor",
+    "appender",
+    "file"
+  ],
+  "author": "Michał Gruca <pucek9@gmail.com>",
+  "homepage": "https://github.com/Pucek9/log4js-protractor-appender-file#readme",
+  "devDependencies": {
+    "istanbul": "^0.3.19",
+    "jasmine-node": "^1.14.5",
+    "selenium-webdriver": "^2.46.1"
+  },
+  "dependencies": {
+    "log4js": "^0.6.26"
+  }
+}
