@@ -1,10 +1,9 @@
 {
   "name": "log4js-protractor-appender-file",
   "version": "1.0.0",
-  "description": "Log4js appender suited for Protractor",
+  "description": "Log4js appender file suited for Protractor",
   "main": "lib/protractorAppenderFile.js",
   "scripts": {
-    "test": "./node_modules/.bin/istanbul cover --include-all-sources ./node_modules/.bin/jasmine-node test"
   },
   "repository": {
     "type": "git",
